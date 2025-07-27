@@ -14,6 +14,18 @@ Host farmac-local
     User far
     Port 222
 
+Host elite-internet
+    HostName 178.84.61.48
+    User far
+    Port 22
+    IdentityFile ~/.ssh/id_rsa_farnabaz
+
+Host elite-local
+    HostName 192.168.178.54
+    User far
+    Port 22
+    IdentityFile ~/.ssh/id_rsa_farnabaz
+
 Host github.com
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_fari18n
