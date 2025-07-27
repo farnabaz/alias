@@ -1,0 +1,22 @@
+# git
+alias g='fit'
+alias ga='git add'
+alias gc='git commit -m'
+alias go='git checkout'
+alias gp='git push'
+alias gs='git status'
+alias gd='git diff'
+alias gpull='git pull'
+
+alias gf="GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa_farnabaz' git"
+alias gcf="GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa_farnabaz' git commit --author \"Farnabaz <farnabaz@gmail.com>\" -m"
+alias gpf="GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa_farnabaz' git push"
+alias gpullf="GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa_farnabaz' git pull"
+
+# neo-vim
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
