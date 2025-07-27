@@ -1,11 +1,14 @@
 # Less but Better
 
-# Install
 
+## Clone
 ```bash
 git clone git@github.com:farnabaz/alias.git ~/.farnabaz
+```
 
-sh ~/.farnabaz/install
+## Install
+```bash
+sh ~/.farnabaz/install.sh
 ```
 
 ## Git
