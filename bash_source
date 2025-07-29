@@ -1,5 +1,5 @@
 # git
-alias g='fit'
+alias g='git'
 alias ga='git add'
 alias gc='git commit -m'
 alias go='git checkout'
